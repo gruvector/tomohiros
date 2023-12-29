@@ -1,0 +1,123 @@
+/* =============================================
+文字：太さ
+============================================= */
+.fontbold {
+  font-weight: bold;
+}
+.fontnormal {
+  font-weight: normal;
+}
+.underline {
+  text-decoration: underline;
+}
+/* =============================================
+文字：色
+============================================= */
+.color-white {
+  color: #fff;
+}
+.color-white a{
+  color: #fff;
+}
+.color-green {
+  color: #839A40;
+}
+.color-green a{
+  color: #839A40;
+}
+/* =============================================
+文字：サイズ
+============================================= */
+.font170 {
+  font-size: 170%;
+}
+.font160 {
+  font-size: 160%;
+}
+.font150 {
+  font-size: 150%;
+}
+.font140 {
+  font-size: 140%;
+}
+.font130 {
+  font-size: 130%!important;
+}
+.font120 {
+  font-size: 120%;
+}
+.font110 {
+  font-size: 110%;
+}
+.font90 {
+  font-size: 90%;
+}
+.font80 {
+  font-size: 80%;
+}
+.font70 {
+  font-size: 70%;
+}
+/* =============================================
+MVのスライド
+============================================= */
+.mainimage04 {
+  background-image: url(/dcms_media/image/template_c2_top_main04_bg.jpg);
+}
+/* =============================================
+ヘッダー
+============================================= */
+header.template_c2 #contact_area3 a:hover{
+  opacity: .5;
+}
+#contact_area3 a:before{
+  content: "";
+  background-image: url(/dcms_media/image/ikon-tel.png);
+  background-size: contain;
+  display: block;
+  width: 23px;
+  height: 23px;
+  margin-right: 5px;
+  background-repeat: no-repeat;
+}
+.no3sp{
+  background: unset;
+}
+.dlb_c66_title {
+  font-size: 30px !important;
+}
+@media only screen and (max-width: 690px){
+.no3pc{
+  display: none;
+}
+.no3sp{
+  background: unset!important;
+}
+.no3sp a{
+  background: unset!important;
+}
+.dlb_c66_title {
+  font-size: 22px !important;
+}
+}
+/* =============================================
+投稿詳細
+============================================= */
+#articledetail .toc_list li {
+  list-style: none !important;
+  font-weight: bold;
+}
+#articledetail .toc_list .toc_list {
+  margin-left: 20px;
+}
+#articledetail .toc_list .toc_list .toc_list {
+  margin-left: 20px;
+}
+article#main h3 {
+  border-width: 0 0px 1px 0;
+  border-style: solid;
+}
+.border th, .border td {
+  border: 1px solid;
+  padding: 10px;
+}
